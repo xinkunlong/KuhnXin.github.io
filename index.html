@@ -1,1 +1,54 @@
-hello, world!
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatGPT</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        background: #f3f3f3;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      #container{
+        width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 4px;
+        box-shadow: 0 0 5px #ccc;
+      }
+      #user-input{
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      #user-input:focus{
+        outline: none;
+        border-color: #00aeef;
+      }
+      #chat-output{
+        width: 100%;
+        background: #f3f3f3;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 16px;
+      }
+      #chat-output p{
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>ChatGPT</h1>
+      <input type="text" id="user-input" placeholder="Type something..."/>
+      <div id="chat-output"></div>
+    </div>
+  </body>
+</html>
